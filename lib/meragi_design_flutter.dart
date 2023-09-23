@@ -1,7 +1,7 @@
 library meragi_design_flutter;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'package:meragi_design_flutter/src/enum/status.dart';
+export 'package:meragi_design_flutter/src/enum/size.dart';
+
+export 'package:meragi_design_flutter/src/style/color.dart';
+export 'package:meragi_design_flutter/src/widget/input.dart';
